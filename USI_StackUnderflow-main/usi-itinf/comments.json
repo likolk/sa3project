@@ -1,0 +1,907 @@
+[{
+ "creationDate": "2022-09-23T14:39:38.583Z",
+ "editCount": 0,
+ "postId": 18,
+ "id": 1,
+ "postCommentTypeId": "Unknown",
+ "userId": 26,
+ "text": "So we just ignore it. Thanks!"
+}, {
+ "creationDate": "2022-09-23T14:41:42.667Z",
+ "editCount": 0,
+ "postId": 16,
+ "id": 2,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 2,
+ "text": "Did you put some constraints on the height of the <main> element?"
+}, {
+ "creationDate": "2022-09-23T14:50:40.560Z",
+ "editCount": 2,
+ "postId": 16,
+ "id": 3,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "userId": 32,
+ "text": "@CesarePautasso well yes and it now works but for some reason only with constraint (min-/max-)height: 100vh which seemed counterintuitive at first. Am I missing something about applying vh / vw constraints to child elements? (min-/max-)height: 100% does not work at all, which is expected after all. edit: I thought 100vh would make it equal viewport height, and that seems like it should make the grid cell bigger (?)"
+}, {
+ "creationDate": "2022-09-23T15:02:28.393Z",
+ "editCount": 0,
+ "postId": 16,
+ "id": 4,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 2,
+ "text": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
+}, {
+ "creationDate": "2022-09-23T15:12:15.117Z",
+ "editCount": 0,
+ "postId": 16,
+ "id": 5,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "userId": 32,
+ "text": "@CesarePautasso Unfortunately, border-box does not seem to have any effect here. The solutions seems to be applying the height constraint to the main element (which is fine). This does not allow for scrolling the entire page though, as the total height sticks to Xvh whatever content is in there. It works just fine and respects the HolyGrail layout, but it makes it so that the header is not scrolled away when going through content in the main element. I'll add a picture to the question for reference."
+}, {
+ "creationDate": "2022-09-23T16:14:59.810Z",
+ "editCount": 0,
+ "postId": 16,
+ "id": 6,
+ "postCommentTypeId": "Unknown",
+ "userId": 4,
+ "text": "Pushing your current progress to your repository will help us to simulate your problem on our end. Please do so, if you are still having problems."
+}, {
+ "creationDate": "2022-09-25T15:32:30.053Z",
+ "editCount": 0,
+ "postId": 27,
+ "id": 7,
+ "postCommentTypeId": "Unknown",
+ "score": 2,
+ "userId": 24,
+ "text": "Yes sorry, I meant #6."
+}, {
+ "creationDate": "2022-09-26T08:48:20.527Z",
+ "editCount": 0,
+ "postId": 27,
+ "id": 8,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 24,
+ "score": 1,
+ "userId": 3,
+ "text": "@KelvinLikollari Then the solution you proposed works. That's the goal, is to be able to toggle one of the layouts."
+}, {
+ "creationDate": "2022-09-26T09:22:34.9Z",
+ "editCount": 0,
+ "postId": 27,
+ "id": 9,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 2,
+ "text": "https://css-tricks.com/the-checkbox-hack/ (JavaScript is not needed nor allowed to solve the first exercise)"
+}, {
+ "creationDate": "2022-09-26T15:26:01.560Z",
+ "editCount": 0,
+ "postId": 33,
+ "id": 10,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 2,
+ "text": "When em units are used on font-size, the size is relative to the font-size of the parent. When used on other properties, it’s relative to the font-size of the element itself."
+}, {
+ "creationDate": "2022-09-26T15:26:19.513Z",
+ "editCount": 0,
+ "postId": 33,
+ "id": 11,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 2,
+ "text": "But can you give an example about which units are suitable for which element?"
+}, {
+ "creationDate": "2022-09-26T19:07:26.877Z",
+ "editCount": 0,
+ "postId": 33,
+ "id": 12,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "deletionUserId": 24,
+ "deletionDate": "2022-09-26T19:07:37.423Z",
+ "userId": 24,
+ "text": "@CesarePautasso Since em and rem are flexible, I'd use them when declaring the font-size."
+}, {
+ "creationDate": "2022-09-26T19:17:01.627Z",
+ "editCount": 0,
+ "postId": 33,
+ "id": 13,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "score": 1,
+ "userId": 24,
+ "text": "@CesarePautasso @CesarePautasso Since em and rem are flexible, I'd use them when declaring the font-size (i.e. font-size: 1.5em) or areas holding the main content of a webpage, etc, as their values would be translated into equivalent pixel values.I'd use pixel values when dealing with something pixel-based, i.e. borders"
+}, {
+ "creationDate": "2022-09-27T11:17:25.080Z",
+ "editCount": 0,
+ "postId": 40,
+ "id": 14,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "That's also a very useful tool. However if you debug the CSS inside the browser you can immediately see the effect of CSS changes without affecting your original source code."
+}, {
+ "creationDate": "2022-09-27T14:03:05.650Z",
+ "editCount": 0,
+ "postId": 44,
+ "id": 15,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 2,
+ "text": "The main reason we ask you to try this is to experience what happens when you mix two stylesheets originally developed for different pages on the same page. Are the selectors going to mix well?"
+}, {
+ "creationDate": "2022-09-27T17:36:58.363Z",
+ "editCount": 0,
+ "postId": 51,
+ "id": 16,
+ "postCommentTypeId": "Unknown",
+ "deletionUserId": 26,
+ "deletionDate": "2022-09-28T13:58:29.053Z",
+ "userId": 26,
+ "text": "However, to have a background image displayed properly we should delete the text or they will overlap. Can we do that?"
+}, {
+ "creationDate": "2022-09-28T12:53:55.977Z",
+ "editCount": 0,
+ "postId": 57,
+ "id": 17,
+ "postCommentTypeId": "Unknown",
+ "userId": 40,
+ "text": "Perfect, Thanks"
+}, {
+ "creationDate": "2022-09-28T20:19:27.540Z",
+ "editCount": 0,
+ "postId": 59,
+ "id": 18,
+ "postCommentTypeId": "Unknown",
+ "userId": 28,
+ "text": "Thank you for the clarification"
+}, {
+ "creationDate": "2022-09-29T12:16:51.493Z",
+ "editCount": 1,
+ "postId": 63,
+ "id": 19,
+ "postCommentTypeId": "Unknown",
+ "userId": 21,
+ "text": "Even though your solution would be correct, a fundamental requirement is that you are not allowed to change the HTML of the game list.   Get creative with the CSS selectors explained in class ;)"
+}, {
+ "creationDate": "2022-09-29T14:55:45.087Z",
+ "editCount": 0,
+ "postId": 63,
+ "id": 20,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 21,
+ "userId": 28,
+ "text": "@AlbertCerfeda Great, thanks! I didn't change the HTML, but prepare the rule in css. For the time being, I mocked the 'active game' purely in css for random children. Is that accepted too?"
+}, {
+ "creationDate": "2022-09-29T15:04:25.530Z",
+ "editCount": 0,
+ "postId": 63,
+ "id": 21,
+ "postCommentTypeId": "Unknown",
+ "userId": 21,
+ "text": "@guerrerotoro  No problem ! Yes it is correct to do it for a random child, but make sure there is only one active row"
+}, {
+ "creationDate": "2022-09-29T15:56:27.203Z",
+ "editCount": 0,
+ "postId": 63,
+ "id": 22,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 21,
+ "userId": 28,
+ "text": "@AlbertCerfeda 👏 ty"
+}, {
+ "creationDate": "2022-09-29T16:15:58.793Z",
+ "editCount": 0,
+ "postId": 63,
+ "id": 23,
+ "postCommentTypeId": "Unknown",
+ "userId": 21,
+ "text": "@guerrerotoro You're welcome"
+}, {
+ "creationDate": "2022-09-29T17:26:13.863Z",
+ "editCount": 0,
+ "postId": 67,
+ "id": 24,
+ "postCommentTypeId": "Unknown",
+ "userId": 28,
+ "text": "Fair enough. Thank you for the clarification 😊"
+}, {
+ "creationDate": "2022-10-02T11:57:52.710Z",
+ "editCount": 0,
+ "postId": 78,
+ "id": 25,
+ "postCommentTypeId": "Unknown",
+ "userId": 24,
+ "text": "Just figured it out: We are supposed to redisplay the challenge string to highlight/repaint the errors (there is a comment in the txt_input function denoting it)."
+}, {
+ "creationDate": "2022-10-02T20:12:33.453Z",
+ "editCount": 0,
+ "postId": 84,
+ "id": 26,
+ "postCommentTypeId": "Unknown",
+ "userId": 28,
+ "text": "Thank you for checking. Test changed accordingly."
+}, {
+ "creationDate": "2022-10-04T11:39:29.530Z",
+ "editCount": 0,
+ "postId": 91,
+ "id": 27,
+ "postCommentTypeId": "Unknown",
+ "score": 2,
+ "userId": 2,
+ "text": "Indeed, the Array of mutated characters should have been converted back to String. Thanks for the great explanation! (Consider reposting it as an answer to your own question)"
+}, {
+ "creationDate": "2022-10-05T08:17:28.503Z",
+ "editCount": 3,
+ "postId": 94,
+ "id": 28,
+ "postCommentTypeId": "Unknown",
+ "userId": 21,
+ "text": "You can also add the `defer` keyword to the JS import tag"
+}, {
+ "creationDate": "2022-10-05T19:15:54.603Z",
+ "editCount": 0,
+ "postId": 100,
+ "id": 29,
+ "postCommentTypeId": "Unknown",
+ "userId": 4,
+ "text": "Please push your latest progress, so we could take a look at your problem."
+}, {
+ "creationDate": "2022-10-06T16:14:53.450Z",
+ "editCount": 0,
+ "postId": 100,
+ "id": 30,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Please rename your account to your actual full name so we can give you credit for participating in the stackoverflow Q&A"
+}, {
+ "creationDate": "2022-10-06T16:50:19.893Z",
+ "editCount": 0,
+ "postId": 100,
+ "id": 31,
+ "postCommentTypeId": "Unknown",
+ "userId": 32,
+ "text": "Repo is updated with latest (and last for this ex) updates. Username can be changed after 23rd of October since it was recently changed. Will do @ that time."
+}, {
+ "creationDate": "2022-10-07T08:08:14.410Z",
+ "editCount": 0,
+ "postId": 100,
+ "id": 32,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "The difference between the values seems to be correlated with the number of spaces in the challenge string."
+}, {
+ "creationDate": "2022-10-07T12:05:45.877Z",
+ "editCount": 0,
+ "postId": 110,
+ "id": 33,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 2,
+ "text": "The deeper lesson here is: never store the state of your app as part of its HTML content"
+}, {
+ "creationDate": "2022-10-07T15:04:47.487Z",
+ "editCount": 0,
+ "postId": 91,
+ "id": 34,
+ "postCommentTypeId": "Unknown",
+ "userId": 28,
+ "text": "I encountered the same issue and also used join(). That indeed stopped the error."
+}, {
+ "creationDate": "2022-10-08T10:58:36.423Z",
+ "editCount": 1,
+ "postId": 113,
+ "id": 35,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 2,
+ "text": "did you load the `test.html` from a Web server and not as a `file:///` ?"
+}, {
+ "creationDate": "2022-10-08T12:56:36.263Z",
+ "editCount": 2,
+ "postId": 113,
+ "id": 36,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 21,
+ "text": "Did you make sure you didn't change the HTML structure of the game player ? That could be a reason why the selector `.player span` doesn't match any element."
+}, {
+ "creationDate": "2022-10-08T14:14:00.210Z",
+ "editCount": 1,
+ "postId": 113,
+ "id": 37,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 15,
+ "text": "The page is being loaded with the live server extension, and as for the html, the test,html wasn't changed.As the play-snake-game.html, the only changes were adding the form for the player name, and the aside with an ordered list inside"
+}, {
+ "creationDate": "2022-10-08T14:20:15.877Z",
+ "editCount": 0,
+ "postId": 113,
+ "id": 38,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 15,
+ "text": "furthermore, removing them doesn't change anything in the errors.Something to note, is that the only tests that are failing are the one for the CanvasGame class (which fails seemingly randomly) in Task 1, and the one checking changes in content of the aside or sidebar, in Task 3"
+}, {
+ "creationDate": "2022-10-08T15:53:21.817Z",
+ "editCount": 0,
+ "postId": 114,
+ "id": 39,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "which is the \"text-input\" or \"text_input\" function you are referring to?"
+}, {
+ "creationDate": "2022-10-10T16:49:05.657Z",
+ "editCount": 0,
+ "postId": 121,
+ "id": 40,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Indeed the selector was not specific enough. Thank you for showing how to fix the test!"
+}, {
+ "creationDate": "2022-10-12T20:29:02.4Z",
+ "editCount": 0,
+ "postId": 127,
+ "id": 41,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "The specification was written considering that the snake would eat the food after hitting it with its head. The test did not cover such behavior, so it was written expecting the snake to detect the entire food rectangle over the snake's entire length."
+}, {
+ "creationDate": "2022-10-13T21:28:53.267Z",
+ "editCount": 0,
+ "postId": 132,
+ "id": 42,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 23,
+ "text": "In that case I think that a while should be used, instead of an if, as the list grows well beyond 11 items. Still, slice() would perform this in just one operation, whereas with the pop() approach we would have to call it repeatedly."
+}, {
+ "creationDate": "2022-10-14T15:01:52.463Z",
+ "editCount": 0,
+ "postId": 137,
+ "id": 43,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 26,
+ "text": "how dare you copy my caption!"
+}, {
+ "creationDate": "2022-10-17T11:27:16.490Z",
+ "editCount": 0,
+ "postId": 144,
+ "id": 44,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Can you add an example of such URL?"
+}, {
+ "creationDate": "2022-10-17T11:33:11.437Z",
+ "editCount": 0,
+ "postId": 144,
+ "id": 45,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "userId": 15,
+ "text": "@CesarePautasso taken from tests/4-over-win.js:18013 request    .get('/tic-tac-toe/XOOOOOXXX')    ..."
+}, {
+ "creationDate": "2022-10-17T11:41:49.190Z",
+ "editCount": 0,
+ "postId": 145,
+ "id": 46,
+ "postCommentTypeId": "Unknown",
+ "userId": 15,
+ "text": "So, I should just ignore such test cases?"
+}, {
+ "creationDate": "2022-10-17T11:47:49.983Z",
+ "editCount": 0,
+ "postId": 145,
+ "id": 47,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 15,
+ "userId": 2,
+ "text": "@NicolaMazzucchelli Yes, unless you manage to guess the over-constrained solution that was used to generate them."
+}, {
+ "creationDate": "2022-10-18T06:09:48.453Z",
+ "editCount": 0,
+ "postId": 147,
+ "id": 48,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "We are available every day 14:30-16:15 in room C1.05 to answer your (specific) questions."
+}, {
+ "creationDate": "2022-10-18T12:24:56.603Z",
+ "editCount": 0,
+ "postId": 147,
+ "id": 49,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "This question has been asked before: https://stackoverflowteams.com/c/usi-itinf/questions/129 (but no answers yet)"
+}, {
+ "creationDate": "2022-10-19T06:51:25.247Z",
+ "editCount": 0,
+ "postId": 151,
+ "id": 50,
+ "postCommentTypeId": "Unknown",
+ "userId": 22,
+ "text": "Thank you for the clarification!"
+}, {
+ "creationDate": "2022-10-19T14:35:00.457Z",
+ "editCount": 0,
+ "postId": 154,
+ "id": 51,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Look for the test detailed output, there usually a stack trace. Look for the test file, on which line does it fail? Could you please report it with your question, this way we can try to reproduce your problem."
+}, {
+ "creationDate": "2022-10-19T14:38:32.187Z",
+ "editCount": 0,
+ "postId": 157,
+ "id": 52,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "ok, but which command do you type to run the js code?"
+}, {
+ "creationDate": "2022-10-19T14:45:08.303Z",
+ "editCount": 0,
+ "postId": 157,
+ "id": 53,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "score": 1,
+ "userId": 49,
+ "text": "@CesarePautasso nodemon fileName.js"
+}, {
+ "creationDate": "2022-10-19T19:29:05.587Z",
+ "editCount": 0,
+ "postId": 158,
+ "id": 54,
+ "postCommentTypeId": "Unknown",
+ "userId": 45,
+ "text": "Thank you for your more details!"
+}, {
+ "creationDate": "2022-10-20T07:27:26.403Z",
+ "editCount": 0,
+ "postId": 154,
+ "id": 55,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "userId": 12,
+ "text": "@CesarePautasso  thank you for your kind reply, last night after some tests I found where I was wrong and managed to solve the problem.Thank you anyway for your reply"
+}, {
+ "creationDate": "2022-10-20T08:54:30.767Z",
+ "editCount": 0,
+ "postId": 161,
+ "id": 56,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 15,
+ "text": "Is the server showing you some kind of error (in the terminal)?"
+}, {
+ "creationDate": "2022-10-20T19:19:47.087Z",
+ "editCount": 0,
+ "postId": 161,
+ "id": 57,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 15,
+ "userId": 35,
+ "text": "@NicolaMazzucchelli no, I am not getting any errors."
+}, {
+ "creationDate": "2022-10-21T07:06:52.740Z",
+ "editCount": 0,
+ "postId": 164,
+ "id": 58,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "That would be true for a.pop() but not for a.pop()()"
+}, {
+ "creationDate": "2022-10-21T07:26:46.597Z",
+ "editCount": 0,
+ "postId": 164,
+ "id": 59,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "userId": 51,
+ "text": "@CesarePautasso Then a.pop()() not a function, It will give the error."
+}, {
+ "creationDate": "2022-10-21T16:55:34.137Z",
+ "editCount": 0,
+ "postId": 164,
+ "id": 60,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Yes, but what if it gives no error? What's in the array in that case?"
+}, {
+ "creationDate": "2022-10-26T19:48:46.553Z",
+ "editCount": 1,
+ "postId": 181,
+ "id": 61,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 22,
+ "text": "And I forget to mention, that a shorter way to fix this test is to delete the tag you don't use in your HTML (.ejs).         So instead of `should.exist($(\"aside\").html() || $(\"sidebar\").html());`          I have now `should.exist($(\"aside\").html());`"
+}, {
+ "creationDate": "2022-10-27T12:30:13.770Z",
+ "editCount": 0,
+ "postId": 184,
+ "id": 62,
+ "postCommentTypeId": "Unknown",
+ "userId": 22,
+ "text": "No, I really mean the test that is only checking if there is an aside/sidebar tag."
+}, {
+ "creationDate": "2022-10-27T14:42:40.667Z",
+ "editCount": 0,
+ "postId": 187,
+ "id": 63,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Are you using `nodemon` ?"
+}, {
+ "creationDate": "2022-10-27T14:57:44.540Z",
+ "editCount": 0,
+ "postId": 188,
+ "id": 64,
+ "postCommentTypeId": "Unknown",
+ "userId": 55,
+ "text": "thank you very much it works now"
+}, {
+ "creationDate": "2022-10-27T21:52:21.117Z",
+ "editCount": 0,
+ "postId": 192,
+ "id": 65,
+ "postCommentTypeId": "Unknown",
+ "score": 3,
+ "userId": 34,
+ "text": "Of course one alternative is better than the other, but I still don't understand the focus on index.html. Why can't we just serve the rendered index page on a GET request to /? Could you clarify this requirement?"
+}, {
+ "creationDate": "2022-10-28T06:36:40.793Z",
+ "editCount": 0,
+ "postId": 192,
+ "id": 66,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 34,
+ "userId": 2,
+ "text": "@MicheleDalleRive Spoiler alert: We wanted students to realize there is no reason why a route which apparently points to a static file (index.html) cannot be implemented by rendering a view and thus including dynamic content. To make it work, however, requires awarenesss about in which order the route is registered, as the static middleware may interfere if the static file with the same name as the route exists."
+}, {
+ "creationDate": "2022-10-30T17:22:02.970Z",
+ "editCount": 0,
+ "postId": 199,
+ "id": 67,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 15,
+ "text": "I used the `res.format()` function, to differentiate between \"application/json\" and \"text/html\", and all tests seem to work;"
+}, {
+ "creationDate": "2022-11-01T20:50:02.217Z",
+ "editCount": 1,
+ "postId": 203,
+ "id": 68,
+ "postCommentTypeId": "Unknown",
+ "userId": 24,
+ "text": "Thank you very much for the detailed feedback. Apparently, yes, the console was displaying 404s when loading the CSS and the js of the page after serving the post request. What you were saying is correct, there was a missing target (i.e. target mismatch)."
+}, {
+ "creationDate": "2022-11-03T14:48:54.103Z",
+ "editCount": 0,
+ "postId": 211,
+ "id": 69,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 20,
+ "text": "Thanks for the quick answer. All is correctly set now."
+}, {
+ "creationDate": "2022-11-04T07:58:59.977Z",
+ "editCount": 0,
+ "postId": 218,
+ "id": 70,
+ "postCommentTypeId": "Unknown",
+ "userId": 15,
+ "text": "This works perfectly, Thanks!"
+}, {
+ "creationDate": "2022-11-04T18:24:58.027Z",
+ "editCount": 0,
+ "postId": 220,
+ "id": 71,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "https://nodejs.org/api/util.html#utilcallbackifyoriginal"
+}, {
+ "creationDate": "2022-11-04T21:50:05.930Z",
+ "editCount": 0,
+ "postId": 221,
+ "id": 72,
+ "postCommentTypeId": "Unknown",
+ "userId": 21,
+ "text": "Are you setting some HTML content by using the `.innerHTML` property ? When you do that all the previous listeners get removed"
+}, {
+ "creationDate": "2022-11-04T22:21:35.650Z",
+ "editCount": 0,
+ "postId": 221,
+ "id": 73,
+ "postCommentTypeId": "Unknown",
+ "score": 0,
+ "userId": 2,
+ "text": "timers however keep running"
+}, {
+ "creationDate": "2022-11-04T22:22:51.320Z",
+ "editCount": 0,
+ "postId": 221,
+ "id": 74,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "The original game scripts need to be adapted to fit with the assumption that the HTML may disappear and reappear, this was not the case with the original ex2/ex3 skeleton."
+}, {
+ "creationDate": "2022-11-07T10:35:26.590Z",
+ "editCount": 0,
+ "postId": 221,
+ "id": 75,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 15,
+ "text": "After a lot of headaches, I found a solution, that works most of the times"
+}, {
+ "creationDate": "2022-11-07T14:12:09.843Z",
+ "editCount": 0,
+ "postId": 227,
+ "id": 76,
+ "postCommentTypeId": "Unknown",
+ "userId": 15,
+ "text": "Ok, thank you!The storage as numbers, was mainly due to the fact that in ex6, the level is defined as an Integer, and as for cursor functions in mongodb, they worked better with numeric values for numbers, than strings."
+}, {
+ "creationDate": "2022-11-07T15:46:14.197Z",
+ "editCount": 0,
+ "postId": 227,
+ "id": 77,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 15,
+ "userId": 2,
+ "text": "@NicolaMazzucchelli Yes, it's a integer value so it definitely should be stored as such"
+}, {
+ "creationDate": "2022-11-11T19:35:20.497Z",
+ "editCount": 3,
+ "postId": 231,
+ "id": 78,
+ "postCommentTypeId": "Unknown",
+ "score": 3,
+ "userId": 23,
+ "text": "It's not actually necessary to open the Compass app, you can just start the database from the terminal by running `mongod --dbpath <path to you db folder>`. The third argument can be a path to wherever you want mongodb to store its data :)"
+}, {
+ "creationDate": "2022-11-14T08:38:20.820Z",
+ "editCount": 0,
+ "postId": 232,
+ "id": 79,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Thanks for the fix. You could split this post into Q&A format."
+}, {
+ "creationDate": "2022-11-14T08:38:26.653Z",
+ "editCount": 0,
+ "postId": 232,
+ "id": 80,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Here is how to check if a DOM element is still part of the page. https://developer.mozilla.org/en-US/docs/Web/API/Node/isConnected"
+}, {
+ "creationDate": "2022-11-14T10:04:28.073Z",
+ "editCount": 1,
+ "postId": 234,
+ "id": 81,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 2,
+ "text": "If the web socket server is not started and initialized the `/socket.io/socket.io.js` route will not be there"
+}, {
+ "creationDate": "2022-11-14T14:08:09.683Z",
+ "editCount": 0,
+ "postId": 234,
+ "id": 82,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 15,
+ "text": "This fixed it for us, and I can also say, that the \"./ws\" is important; just \"ws\"  won't work"
+}, {
+ "creationDate": "2022-11-15T19:14:33.740Z",
+ "editCount": 0,
+ "postId": 236,
+ "id": 83,
+ "postCommentTypeId": "Unknown",
+ "userId": 68,
+ "text": "Perfetto grazie mille!"
+}, {
+ "creationDate": "2022-11-15T19:16:10.580Z",
+ "editCount": 0,
+ "postId": 242,
+ "id": 84,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "* unless one is interested about the legal implications of sharing code in public repositories"
+}, {
+ "creationDate": "2022-11-16T19:37:50.330Z",
+ "editCount": 1,
+ "postId": 245,
+ "id": 85,
+ "postCommentTypeId": "Unknown",
+ "userId": 24,
+ "text": "I think the problem is that I am not passing the variables inside the call to the ejs view. I tried removing all the variables from the game over.ejs file and it was rendered. Allow me to investigate it"
+}, {
+ "creationDate": "2022-11-17T19:01:09.6Z",
+ "editCount": 0,
+ "postId": 247,
+ "id": 86,
+ "postCommentTypeId": "Unknown",
+ "score": 0,
+ "userId": 2,
+ "text": "Which folder do you run the script from?"
+}, {
+ "creationDate": "2022-11-17T19:01:28.787Z",
+ "editCount": 0,
+ "postId": 247,
+ "id": 87,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Are there some syntax errors in the .ejs files?"
+}, {
+ "creationDate": "2022-11-17T19:03:26.393Z",
+ "editCount": 0,
+ "postId": 245,
+ "id": 88,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "We can look into this together tomorrow in class"
+}, {
+ "creationDate": "2022-11-17T20:12:58.713Z",
+ "editCount": 0,
+ "postId": 245,
+ "id": 89,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "userId": 24,
+ "text": "@CesarePautasso Sure, thank you."
+}, {
+ "creationDate": "2022-11-17T20:18:23.190Z",
+ "editCount": 0,
+ "postId": 248,
+ "id": 90,
+ "postCommentTypeId": "Unknown",
+ "userId": 19,
+ "text": "It is still not working"
+}, {
+ "creationDate": "2022-11-17T20:23:52.973Z",
+ "editCount": 0,
+ "postId": 247,
+ "id": 91,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 2,
+ "userId": 19,
+ "text": "@CesarePautasso I am running the command from the ex7 folder.I also have tried to make a new clean ejs file to check if syntax errors were the problem but it still didnt work."
+}, {
+ "creationDate": "2022-11-17T20:59:02.323Z",
+ "editCount": 0,
+ "postId": 248,
+ "id": 92,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 19,
+ "userId": 3,
+ "text": "@ChristianGiobbi if you run `ejsc` command at the root of your project. Does it work ?"
+}, {
+ "creationDate": "2022-11-17T21:06:29.810Z",
+ "editCount": 0,
+ "postId": 248,
+ "id": 93,
+ "postCommentTypeId": "Unknown",
+ "userId": 19,
+ "text": "the command works but the views.js file did not change"
+}, {
+ "creationDate": "2022-11-17T21:09:19.530Z",
+ "editCount": 2,
+ "postId": 248,
+ "id": 94,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 19,
+ "userId": 3,
+ "text": "@ChristianGiobbi you are sure that your views are correctly placed in the views folder?"
+}, {
+ "creationDate": "2022-11-17T21:13:46.313Z",
+ "editCount": 0,
+ "postId": 248,
+ "id": 95,
+ "postCommentTypeId": "Unknown",
+ "replyToUserId": 19,
+ "userId": 3,
+ "text": "@ChristianGiobbi I have just generated the views.js with all the functions from your code pushed in GitHub. It worked fine."
+}, {
+ "creationDate": "2022-11-17T21:45:02.720Z",
+ "editCount": 0,
+ "postId": 248,
+ "id": 96,
+ "postCommentTypeId": "Unknown",
+ "userId": 19,
+ "text": "I still don't understand how it's working for you. It's still not working for me"
+}, {
+ "creationDate": "2022-11-17T21:55:55.367Z",
+ "editCount": 0,
+ "postId": 248,
+ "id": 97,
+ "postCommentTypeId": "Unknown",
+ "score": 2,
+ "userId": 19,
+ "text": "Ok, somehow deleting the exercise folder and cloning the repository again worked.I have no idea why but now it works. Thanks for help"
+}, {
+ "creationDate": "2022-11-22T15:34:18.223Z",
+ "editCount": 0,
+ "postId": 254,
+ "id": 98,
+ "postCommentTypeId": "Unknown",
+ "score": 0,
+ "userId": 26,
+ "text": "Thank you! I totally missed that!"
+}, {
+ "creationDate": "2022-11-25T13:02:09.410Z",
+ "editCount": 0,
+ "postId": 260,
+ "id": 99,
+ "postCommentTypeId": "Unknown",
+ "userId": 36,
+ "text": "Perfect, thank you!"
+}, {
+ "creationDate": "2022-11-26T22:11:42.727Z",
+ "editCount": 1,
+ "postId": 261,
+ "id": 100,
+ "postCommentTypeId": "Unknown",
+ "userId": 24,
+ "text": "I am getting a 500 and a 302 in the server console (500 for the window redirecting, 302 for the other one). Having console-logged it, it appears that it cannot read the id, as the id printed is: [object Object]. Will look into it"
+}, {
+ "creationDate": "2022-11-27T08:37:49.777Z",
+ "editCount": 0,
+ "postId": 263,
+ "id": 101,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Glad you could fix it -- That's one of the reasons we use stackoverflow :-)"
+}, {
+ "creationDate": "2022-11-27T17:15:08.863Z",
+ "editCount": 0,
+ "postId": 261,
+ "id": 102,
+ "postCommentTypeId": "Unknown",
+ "userId": 24,
+ "text": "The problem persists even now that the ID is shown in the right format"
+}, {
+ "creationDate": "2022-12-01T17:10:53.983Z",
+ "editCount": 0,
+ "postId": 265,
+ "id": 103,
+ "postCommentTypeId": "Unknown",
+ "userId": 2,
+ "text": "Do you have a bigger code example?"
+}, {
+ "creationDate": "2022-12-01T18:08:08.703Z",
+ "editCount": 0,
+ "postId": 266,
+ "id": 104,
+ "postCommentTypeId": "Unknown",
+ "deletionUserId": 23,
+ "deletionDate": "2022-12-01T18:13:56.290Z",
+ "userId": 23,
+ "text": "> If the non-deterministic order of events is causing problems, there should be a way for reordering the events so that they are delayed until a certain state is reached, or they are ignored unless when received in a given state."
+}, {
+ "creationDate": "2022-12-01T18:14:01.997Z",
+ "editCount": 3,
+ "postId": 266,
+ "id": 105,
+ "postCommentTypeId": "Unknown",
+ "score": 1,
+ "userId": 23,
+ "text": "_If the non-deterministic order of events is causing problems, there should be a way for reordering the events so that they are delayed until a certain state is reached, or they are ignored unless when received in a given state._  This is the real purpose of the \"mutex\". In reality it's just a boolean that represents a state/flag to indicate when it's safe to proceed inside a function. And yes, the JavaScript yield isn't useful in our case, but it was an interesting read nonetheless, and we haven't perceived any performance problems without it. Thanks!"
+}, {
+ "creationDate": "2022-12-02T22:44:40.260Z",
+ "editCount": 0,
+ "postId": 232,
+ "id": 106,
+ "postCommentTypeId": "Unknown",
+ "userId": 28,
+ "text": "Thank you so much! This helped a lot!"
+}]

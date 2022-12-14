@@ -1,0 +1,261 @@
+<html>
+
+<%- include ('includes/head') %>
+
+    <body>
+
+        <%- include ('includes/header') %>
+
+            <div class="grid-container">
+
+                <%- include ('includes/nav') %>
+
+                        <!-- <h1 class="questionTitle"><%- question.title %></h1> -->
+
+                        <div class="main-content">
+
+                            <h3 class="question-title">
+                                <%- question.title %>
+                            </h3>
+                    <h3 class="question-title">
+                        <%- question.title %>
+                    </h3>
+
+
+                            <div class="question-content">
+
+
+
+                                <!-- <div class="visits">
+                            Viewed by some people
+                        </div> -->
+
+                                <div class="votes">
+                                    <form action="/questions/up/<%-question.id%>?_method=PUT" method="post">
+                                        <input type="image" name="submit" src="../images/upvote.png" width="30"
+                                            height="30" alt="upvote button">
+                                    </form>
+                        <div class="votes">
+                            <form action="/questions/up/<%-question.id%>?_method=PUT" method = "post">
+                                <input type = "image" name = "submit" src="../images/upvote.png" width="30" height="30" alt="upvote button">
+                            </form>
+
+                                    <p class="pvotes"><%-question.score%></p>
+
+                                    <form action="/questions/down/<%-question.id%>?_method=PUT" method="post">
+                                        <input type="image" name="submit" src="../images/downvote.png" width="30"
+                                            height="30" alt="downvote button">
+                                    </form>
+                                </div>
+
+                                <div class="actual-question">
+                                    <!-- <p class="questionBody">
+                                
+                            </p> -->
+                                    <%- question.body %>
+                                </div>
+
+                                <div class="question-tags">
+                                    <!-- <p>
+                                
+                            </p> -->
+                                    <%- question.tag %>
+                                </div>
+
+                                <div class="user-details">
+                                    <div class="user-asked">
+                                        <p>
+                                            Asked by: <%- question.ownerUserId %>
+                                        </p>
+                                        <!-- add also user profile picture  -->
+                                    </div>
+
+                                    <div class="date-asked">
+                                        <p>
+                                            Creation date: <%- question.creationDate %>
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <div class="number-of-answers">
+                                    <%- question.answerCount %>
+                                </div>
+                            </div>
+
+                            <div class="answer-content">
+
+                                <!-- <div class="answer-title">
+                                <h3>
+                                    Answer title
+                                </h3>
+                            </div> -->
+
+
+                                <% answers.forEach((n)=> {%>
+                                    <form action="/questions/up/<%-n.id%>?_method=PUT" method="post">
+                                        <input type="image" name="submit" src="../images/upvote.png" width="30"
+                                            height="30" alt="upvote button">
+                                    </form>
+                                    <p class="pvotes"><%-n.score%></p>
+                                    <form action="/questions/down/<%-n.id%>?_method=PUT" method="post">
+                                        <input type="image" name="submit" src="../images/downvote.png" width="30"
+                                            height="30" alt="downvote button">
+                                    </form>
+                                    <div class="actual-answer">
+                                        <p>
+                                            <%- n.bodyMarkdown %>
+                                        </p>
+                                    </div>
+                                    <% }) %>
+
+                                        <div class="modify-content-buttons">
+                                            <a href="index.html">Edit</a>
+                                            <a href="index.html">Delete</a>
+                                        </div>
+
+                                        <div class="user-details">
+
+                                            <div class="user-answered">
+                                                <p>Answered by <a href="#">user1</a></p>
+                                                <!-- add also user profile picture  -->
+                                            </div>
+
+                                            <div class="date-answered">
+                                                <p>Answered on: X</p>
+                                            </div>
+
+                                        </div>
+
+
+                            </div>
+
+                            <div class="your-answer">
+                                <!-- The answer to the questions will be decided as follows:
+                        If there already exists some answer, then a button (add another answer) shall be displayed in the
+                        bottom of the page, otherwise, a textarea with markdown content shall be displayed
+                     -->
+
+                                <!-- version 1: button -->
+                                <div class="add-another-answer">
+                                    <p>Add another answer</p>
+                                </div>
+
+                                <!-- version 2: textarea -->
+                                <form class="answer" action="/questions/answer/<%-question.id%>" method="post">
+                                    <!-- This will be a text area in which the users shall be able to answer to questions in markdown format -->
+                                    <label for="answer">Possible Answers?</label>
+                                    <textarea id="answer" class="textarea" name="answer" cols="10" rows="15"
+                                        placeholder="Write your answer here"></textarea>
+                                    <input type="button" class="submit-answer" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </main>
+
+                        <div class="actual-question">
+                            <%- question.body %>
+                        </div>
+                    
+                        <div class="question-tags">
+                            <h4 class="tags">Tags:</h4>
+                            <% question.tags.split('|').forEach((t)=> {%>
+                                <%if (t != ''){%>
+                                    <div class="tt">
+                                        <p><a href="/"><%- t %></a></p>
+                                    </div>
+                                <%}%>
+                            <%})%>
+                        </div>
+
+                        <div class="user-details">
+                            <p>
+                                Asked by: 
+                                <%if(question.ownerUserId ==0){%>
+                                    Anonymous
+                                <%} else {%>
+                                    <a href="/users/<%-question.ownerUserId%>"><%-users.find(e=> e.id === question.ownerUserId).displayName%></a>
+                                <%}%>
+                            </p>
+                            <!-- add also user profile picture  -->
+                            
+                            <p>
+                                Asked on: <%- new Date(question.creationDate).toUTCString().split('G')[0] %>
+                            </p>
+                            
+                        </div>
+
+
+                        <div class="number-of-answers">
+                            <p>
+                            Number of answers: <%- question.answerCount %>
+                            </p>
+                        </div>
+                            
+                    </div>
+
+
+                    <% answers.forEach((n) => {%> 
+                        <div class="question-content">
+                            <div class="votes">
+                                <form action="/questions/up/<%-question.id%>?_method=PUT" method = "post">
+                                    <input type = "image" name = "submit" src="../images/upvote.png" width="30" height="30" alt="upvote button">
+                                </form>
+    
+                                <p class="pvotes"><%-question.score%></p>
+                                
+                                <form action="/questions/down/<%-question.id%>?_method=PUT" method = "post">
+                                    <input type = "image" name = "submit" src="../images/downvote.png" width="30" height="30" alt="downvote button">
+                                </form>
+                            </div>
+
+                            <div class="actual-question">
+                                <%- n.body %>
+                            </div>
+
+                            <div></div>
+
+                            <div class="user-details">
+
+                                    <p>Answered by 
+                                        <%if(n.ownerUserId ==0){%>
+                                            Anonymous
+                                        <%} else {%>
+                                            <a href="/users/<%-n.ownerUserId%>"><%-users.find(e=> e.id === n.ownerUserId).displayName%></a>
+                                        <%}%><!-- add also user profile picture  -->
+                                    <p>Answered on: <%- new Date(n.creationDate).toUTCString().split('G')[0] %></p>
+                            </div>
+                        </div> 
+                    <% }) %>
+
+                    <!-- <div class="modify-content-buttons">
+                        <a href="index.html">Edit</a>
+                        <a href="index.html">Delete</a>
+                    </div> -->
+
+                    <div class="your-answer">
+                        <div class="add-another-answer">
+                            <p>Add another answer</p>
+                        </div>
+
+                        <form class="answer" action="/questions/answer/<%-question.id%>" method = "post">
+                            
+                            <textarea id="answer" class="textarea" name="answer" cols="10" rows="15" placeholder="Write your answer here"></textarea>
+                            
+                            <input type="submit" class="submit-answer" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </main>
+
+            <!-- <%- include ('includes/aside') %> -->
+
+            </div>
+
+            <!-- <script src="./js/markdown.js"> -->
+
+            </script>
+
+    </body>
+
+</html>

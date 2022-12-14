@@ -1,0 +1,80 @@
+body {
+    background-color: #121212;
+    /* background-color: #FFFF00; */
+}
+
+
+header {
+    color: #819fa7;
+    background-color: #121212;
+}
+
+nav {
+    border: #bde8f1;
+    background-color: transparent;
+
+    /* background-color: #FFFF00; */
+}
+
+nav a {
+    color: #bde8f1;
+    border-color: #bde8f1;
+}
+
+nav a.active {
+    background-color: white; 
+    color: #121212;
+}
+
+footer {
+    color: white;
+}
+
+main {
+    background-color: #5b6e74;
+}
+
+.nq {
+    background-color: #8cd5db;
+}
+
+aside {
+    border-color: #bde8f1;
+    color: #bde8f1;
+}
+
+a {
+    color: #bde8f1
+}
+
+a:visited {
+    color: #bde8f1
+}
+
+p {
+    color: white;
+}
+
+aside li {
+    color: #FFFF00;
+}
+
+.listofgames {
+    color: #FFFF00;
+}
+
+.button {
+    background-color: #8cd5db;
+}
+
+main.game_table header a {
+    color: #171B1D;
+}
+
+main.game_table header a:visited {
+    color: #171B1D
+}
+
+#answer {
+    background-color: #FFFFFF;
+}

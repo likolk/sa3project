@@ -1,0 +1,809 @@
+[{
+ "date": "2022-09-20T16:00:00.047Z",
+ "badgeId": 1,
+ "userId": 2,
+ "id": 4,
+ "reasonId": 2
+}, {
+ "date": "2022-09-23T13:00:00.057Z",
+ "badgeId": 1,
+ "userId": 4,
+ "id": 16,
+ "reasonId": 9
+}, {
+ "date": "2022-09-23T13:00:00.057Z",
+ "badgeId": 1,
+ "userId": 26,
+ "id": 17,
+ "reasonId": 13
+}, {
+ "date": "2022-09-23T17:00:06Z",
+ "badgeId": 1,
+ "userId": 24,
+ "id": 26,
+ "reasonId": 19
+}, {
+ "date": "2022-09-25T19:00:01.670Z",
+ "badgeId": 1,
+ "userId": 3,
+ "id": 33,
+ "reasonId": 27
+}, {
+ "date": "2022-09-27T07:00:00.043Z",
+ "badgeId": 1,
+ "userId": 15,
+ "id": 35,
+ "reasonId": 39
+}, {
+ "date": "2022-09-27T07:00:00.043Z",
+ "badgeId": 1,
+ "userId": 34,
+ "id": 36,
+ "reasonId": 38
+}, {
+ "date": "2022-09-29T17:00:00.050Z",
+ "badgeId": 1,
+ "userId": 21,
+ "id": 54,
+ "reasonId": 69
+}, {
+ "date": "2022-10-03T19:00:03.050Z",
+ "badgeId": 1,
+ "userId": 12,
+ "id": 60,
+ "reasonId": 88
+}, {
+ "date": "2022-10-07T11:00:01.877Z",
+ "badgeId": 1,
+ "userId": 44,
+ "id": 81,
+ "reasonId": 110
+}, {
+ "date": "2022-10-10T17:00:00.047Z",
+ "badgeId": 1,
+ "userId": 28,
+ "id": 83,
+ "reasonId": 121
+}, {
+ "date": "2022-10-14T15:00:00.020Z",
+ "badgeId": 1,
+ "userId": 31,
+ "id": 93,
+ "reasonId": 137
+}, {
+ "date": "2022-10-16T09:00:00.047Z",
+ "badgeId": 1,
+ "userId": 42,
+ "id": 95,
+ "reasonId": 141
+}, {
+ "date": "2022-10-18T16:00:00.7Z",
+ "badgeId": 1,
+ "userId": 40,
+ "id": 99,
+ "reasonId": 149
+}, {
+ "date": "2022-10-19T20:00:03.210Z",
+ "badgeId": 1,
+ "userId": 22,
+ "id": 102,
+ "reasonId": 158
+}, {
+ "date": "2022-10-21T17:00:00.050Z",
+ "badgeId": 1,
+ "userId": 35,
+ "id": 105,
+ "reasonId": 163
+}, {
+ "date": "2022-10-21T20:00:01.527Z",
+ "badgeId": 1,
+ "userId": 36,
+ "id": 106,
+ "reasonId": 165
+}, {
+ "date": "2022-10-25T11:00:02.453Z",
+ "badgeId": 1,
+ "userId": 49,
+ "id": 108,
+ "reasonId": 157
+}, {
+ "date": "2022-11-02T10:00:00.990Z",
+ "badgeId": 1,
+ "userId": 10,
+ "id": 117,
+ "reasonId": 206
+}, {
+ "date": "2022-11-04T19:00:01.857Z",
+ "badgeId": 1,
+ "userId": 23,
+ "id": 125,
+ "reasonId": 220
+}, {
+ "date": "2022-11-26T20:00:01.733Z",
+ "badgeId": 1,
+ "userId": 32,
+ "id": 141,
+ "reasonId": 263
+}, {
+ "date": "2022-09-23T13:00:00.057Z",
+ "badgeId": 2,
+ "userId": 2,
+ "id": 10,
+ "reasonId": 8
+}, {
+ "date": "2022-09-23T13:00:00.057Z",
+ "badgeId": 2,
+ "userId": 4,
+ "id": 11,
+ "reasonId": 1
+}, {
+ "date": "2022-09-23T13:00:00.057Z",
+ "badgeId": 2,
+ "userId": 28,
+ "id": 12,
+ "reasonId": 5
+}, {
+ "date": "2022-09-23T13:00:00.057Z",
+ "badgeId": 2,
+ "userId": 30,
+ "id": 13,
+ "reasonId": 11
+}, {
+ "date": "2022-09-23T14:00:00.040Z",
+ "badgeId": 2,
+ "userId": 32,
+ "id": 19,
+ "reasonId": 16
+}, {
+ "date": "2022-09-23T15:00:01.880Z",
+ "badgeId": 2,
+ "userId": 26,
+ "id": 24,
+ "reasonId": 17
+}, {
+ "date": "2022-09-24T08:00:00.057Z",
+ "badgeId": 2,
+ "userId": 35,
+ "id": 30,
+ "reasonId": 20
+}, {
+ "date": "2022-09-24T09:00:00.050Z",
+ "badgeId": 2,
+ "userId": 15,
+ "id": 31,
+ "reasonId": 22
+}, {
+ "date": "2022-09-25T19:00:01.670Z",
+ "badgeId": 2,
+ "userId": 24,
+ "id": 32,
+ "reasonId": 26
+}, {
+ "date": "2022-09-27T11:00:02.077Z",
+ "badgeId": 2,
+ "userId": 40,
+ "id": 37,
+ "reasonId": 41
+}, {
+ "date": "2022-09-27T18:00:00.850Z",
+ "badgeId": 2,
+ "userId": 3,
+ "id": 42,
+ "reasonId": 43
+}, {
+ "date": "2022-09-27T18:00:00.850Z",
+ "badgeId": 2,
+ "userId": 42,
+ "id": 43,
+ "reasonId": 52
+}, {
+ "date": "2022-09-28T13:00:00.017Z",
+ "badgeId": 2,
+ "userId": 23,
+ "id": 47,
+ "reasonId": 55
+}, {
+ "date": "2022-09-29T17:00:00.050Z",
+ "badgeId": 2,
+ "userId": 21,
+ "id": 53,
+ "reasonId": 68
+}, {
+ "date": "2022-10-03T17:00:00.037Z",
+ "badgeId": 2,
+ "userId": 36,
+ "id": 57,
+ "reasonId": 79
+}, {
+ "date": "2022-10-03T18:00:04.510Z",
+ "badgeId": 2,
+ "userId": 34,
+ "id": 58,
+ "reasonId": 80
+}, {
+ "date": "2022-10-06T16:00:00.053Z",
+ "badgeId": 2,
+ "userId": 38,
+ "id": 72,
+ "reasonId": 102
+}, {
+ "date": "2022-10-12T09:00:00.003Z",
+ "badgeId": 2,
+ "userId": 37,
+ "id": 87,
+ "reasonId": 107
+}, {
+ "date": "2022-10-18T19:00:00.320Z",
+ "badgeId": 2,
+ "userId": 22,
+ "id": 100,
+ "reasonId": 150
+}, {
+ "date": "2022-10-19T15:00:00.067Z",
+ "badgeId": 2,
+ "userId": 45,
+ "id": 101,
+ "reasonId": 155
+}, {
+ "date": "2022-10-19T21:00:01.473Z",
+ "badgeId": 2,
+ "userId": 12,
+ "id": 103,
+ "reasonId": 154
+}, {
+ "date": "2022-10-27T15:00:03.337Z",
+ "badgeId": 2,
+ "userId": 55,
+ "id": 114,
+ "reasonId": 187
+}, {
+ "date": "2022-11-03T14:00:01.133Z",
+ "badgeId": 2,
+ "userId": 20,
+ "id": 118,
+ "reasonId": 209
+}, {
+ "date": "2022-11-03T19:00:00.033Z",
+ "badgeId": 2,
+ "userId": 46,
+ "id": 123,
+ "reasonId": 214
+}, {
+ "date": "2022-11-18T12:00:00.933Z",
+ "badgeId": 2,
+ "userId": 19,
+ "id": 138,
+ "reasonId": 247
+}, {
+ "date": "2022-09-23T12:00:03.2Z",
+ "badgeId": 3,
+ "userId": 2,
+ "id": 7,
+ "reasonId": 6
+}, {
+ "date": "2022-09-23T15:00:01.880Z",
+ "badgeId": 3,
+ "userId": 32,
+ "id": 22,
+ "reasonId": 16
+}, {
+ "date": "2022-09-23T17:00:06Z",
+ "badgeId": 3,
+ "userId": 24,
+ "id": 25,
+ "reasonId": 19
+}, {
+ "date": "2022-09-26T22:00:00.217Z",
+ "badgeId": 3,
+ "userId": 34,
+ "id": 34,
+ "reasonId": 38
+}, {
+ "date": "2022-09-27T18:00:00.850Z",
+ "badgeId": 3,
+ "userId": 26,
+ "id": 41,
+ "reasonId": 36
+}, {
+ "date": "2022-09-29T17:00:00.050Z",
+ "badgeId": 3,
+ "userId": 21,
+ "id": 51,
+ "reasonId": 68
+}, {
+ "date": "2022-10-04T19:00:00.040Z",
+ "badgeId": 3,
+ "userId": 45,
+ "id": 61,
+ "reasonId": 95
+}, {
+ "date": "2022-10-06T17:00:00.650Z",
+ "badgeId": 3,
+ "userId": 37,
+ "id": 74,
+ "reasonId": 107
+}, {
+ "date": "2022-10-07T11:00:01.877Z",
+ "badgeId": 3,
+ "userId": 3,
+ "id": 75,
+ "reasonId": 107
+}, {
+ "date": "2022-10-07T11:00:01.877Z",
+ "badgeId": 3,
+ "userId": 44,
+ "id": 76,
+ "reasonId": 110
+}, {
+ "date": "2022-10-14T15:00:00.020Z",
+ "badgeId": 3,
+ "userId": 31,
+ "id": 92,
+ "reasonId": 137
+}, {
+ "date": "2022-10-15T21:00:00.250Z",
+ "badgeId": 3,
+ "userId": 35,
+ "id": 94,
+ "reasonId": 139
+}, {
+ "date": "2022-10-16T21:00:01.193Z",
+ "badgeId": 3,
+ "userId": 23,
+ "id": 96,
+ "reasonId": 130
+}, {
+ "date": "2022-10-27T12:00:00.150Z",
+ "badgeId": 3,
+ "userId": 36,
+ "id": 111,
+ "reasonId": 184
+}, {
+ "date": "2022-10-27T13:00:00.057Z",
+ "badgeId": 3,
+ "userId": 22,
+ "id": 112,
+ "reasonId": 181
+}, {
+ "date": "2022-10-30T11:00:00.830Z",
+ "badgeId": 3,
+ "userId": 46,
+ "id": 115,
+ "reasonId": 199
+}, {
+ "date": "2022-11-03T16:00:04.023Z",
+ "badgeId": 3,
+ "userId": 20,
+ "id": 120,
+ "reasonId": 209
+}, {
+ "date": "2022-11-17T17:00:00.033Z",
+ "badgeId": 3,
+ "userId": 19,
+ "id": 136,
+ "reasonId": 247
+}, {
+ "date": "2022-09-23T12:00:03.2Z",
+ "badgeId": 5,
+ "userId": 2,
+ "id": 8,
+ "reasonId": 6
+}, {
+ "date": "2022-09-20T16:00:00.047Z",
+ "badgeId": 6,
+ "userId": 3,
+ "id": 2
+}, {
+ "date": "2022-09-20T16:00:00.047Z",
+ "badgeId": 6,
+ "userId": 4,
+ "id": 3
+}, {
+ "date": "2022-09-23T13:00:00.057Z",
+ "badgeId": 6,
+ "userId": 26,
+ "id": 14
+}, {
+ "date": "2022-09-23T13:00:00.057Z",
+ "badgeId": 6,
+ "userId": 31,
+ "id": 15
+}, {
+ "date": "2022-09-23T14:00:00.040Z",
+ "badgeId": 6,
+ "userId": 2,
+ "id": 20
+}, {
+ "date": "2022-09-23T14:00:00.040Z",
+ "badgeId": 6,
+ "userId": 34,
+ "id": 21
+}, {
+ "date": "2022-09-23T19:00:07.673Z",
+ "badgeId": 6,
+ "userId": 24,
+ "id": 27
+}, {
+ "date": "2022-09-23T19:00:07.673Z",
+ "badgeId": 6,
+ "userId": 35,
+ "id": 28
+}, {
+ "date": "2022-09-27T13:00:00.383Z",
+ "badgeId": 6,
+ "userId": 40,
+ "id": 38
+}, {
+ "date": "2022-09-27T13:00:00.383Z",
+ "badgeId": 6,
+ "userId": 42,
+ "id": 39
+}, {
+ "date": "2022-09-28T11:00:00.020Z",
+ "badgeId": 6,
+ "userId": 23,
+ "id": 46
+}, {
+ "date": "2022-09-29T11:00:00.497Z",
+ "badgeId": 6,
+ "userId": 28,
+ "id": 49
+}, {
+ "date": "2022-09-29T13:00:00.950Z",
+ "badgeId": 6,
+ "userId": 12,
+ "id": 50
+}, {
+ "date": "2022-09-29T19:00:00.057Z",
+ "badgeId": 6,
+ "userId": 21,
+ "id": 55
+}, {
+ "date": "2022-10-04T20:00:00.607Z",
+ "badgeId": 6,
+ "userId": 45,
+ "id": 63
+}, {
+ "date": "2022-10-05T07:00:00.823Z",
+ "badgeId": 6,
+ "userId": 5,
+ "id": 65
+}, {
+ "date": "2022-10-05T14:00:00.943Z",
+ "badgeId": 6,
+ "userId": 20,
+ "id": 66
+}, {
+ "date": "2022-10-06T10:00:00.047Z",
+ "badgeId": 6,
+ "userId": 25,
+ "id": 67
+}, {
+ "date": "2022-10-06T12:00:00.697Z",
+ "badgeId": 6,
+ "userId": 38,
+ "id": 69
+}, {
+ "date": "2022-10-06T13:00:00.043Z",
+ "badgeId": 6,
+ "userId": 18,
+ "id": 71
+}, {
+ "date": "2022-10-07T11:00:01.877Z",
+ "badgeId": 6,
+ "userId": 32,
+ "id": 79
+}, {
+ "date": "2022-10-07T11:00:01.877Z",
+ "badgeId": 6,
+ "userId": 44,
+ "id": 80
+}, {
+ "date": "2022-10-11T13:00:00.050Z",
+ "badgeId": 6,
+ "userId": 15,
+ "id": 84
+}, {
+ "date": "2022-10-12T20:00:03.280Z",
+ "badgeId": 6,
+ "userId": 9,
+ "id": 88
+}, {
+ "date": "2022-10-13T20:00:00.937Z",
+ "badgeId": 6,
+ "userId": 22,
+ "id": 91
+}, {
+ "date": "2022-10-20T11:00:00.043Z",
+ "badgeId": 6,
+ "userId": 11,
+ "id": 104
+}, {
+ "date": "2022-10-23T17:00:00.040Z",
+ "badgeId": 6,
+ "userId": 51,
+ "id": 107
+}, {
+ "date": "2022-11-01T21:00:01.167Z",
+ "badgeId": 6,
+ "userId": 43,
+ "id": 116
+}, {
+ "date": "2022-11-03T14:00:01.133Z",
+ "badgeId": 6,
+ "userId": 46,
+ "id": 119
+}, {
+ "date": "2022-11-04T13:00:00.953Z",
+ "badgeId": 6,
+ "userId": 64,
+ "id": 124
+}, {
+ "date": "2022-11-11T17:00:00.140Z",
+ "badgeId": 6,
+ "userId": 60,
+ "id": 126
+}, {
+ "date": "2022-11-12T09:00:00.037Z",
+ "badgeId": 6,
+ "userId": 36,
+ "id": 127
+}, {
+ "date": "2022-11-14T14:00:00.530Z",
+ "badgeId": 6,
+ "userId": 8,
+ "id": 133
+}, {
+ "date": "2022-11-15T19:00:00.047Z",
+ "badgeId": 6,
+ "userId": 68,
+ "id": 135
+}, {
+ "date": "2022-11-18T12:00:00.933Z",
+ "badgeId": 6,
+ "userId": 19,
+ "id": 139
+}, {
+ "date": "2022-12-02T11:00:00.053Z",
+ "badgeId": 6,
+ "userId": 72,
+ "id": 143
+}, {
+ "date": "2022-09-23T13:00:00.057Z",
+ "badgeId": 9,
+ "userId": 26,
+ "id": 9
+}, {
+ "date": "2022-09-23T14:00:00.040Z",
+ "badgeId": 9,
+ "userId": 32,
+ "id": 18
+}, {
+ "date": "2022-09-28T09:00:00.063Z",
+ "badgeId": 9,
+ "userId": 12,
+ "id": 44
+}, {
+ "date": "2022-09-28T14:00:00.977Z",
+ "badgeId": 9,
+ "userId": 44,
+ "id": 48
+}, {
+ "date": "2022-09-20T16:00:00.047Z",
+ "badgeId": 10,
+ "userId": 4,
+ "id": 1,
+ "reasonId": 1
+}, {
+ "date": "2022-09-21T16:00:01.637Z",
+ "badgeId": 10,
+ "userId": 28,
+ "id": 5,
+ "reasonId": 5
+}, {
+ "date": "2022-09-23T07:00:00.037Z",
+ "badgeId": 10,
+ "userId": 2,
+ "id": 6,
+ "reasonId": 8
+}, {
+ "date": "2022-09-23T15:00:01.880Z",
+ "badgeId": 10,
+ "userId": 26,
+ "id": 23,
+ "reasonId": 17
+}, {
+ "date": "2022-09-23T22:00:01.957Z",
+ "badgeId": 10,
+ "userId": 35,
+ "id": 29,
+ "reasonId": 20
+}, {
+ "date": "2022-09-27T14:00:00.040Z",
+ "badgeId": 10,
+ "userId": 3,
+ "id": 40,
+ "reasonId": 45
+}, {
+ "date": "2022-09-28T11:00:00.020Z",
+ "badgeId": 10,
+ "userId": 23,
+ "id": 45,
+ "reasonId": 55
+}, {
+ "date": "2022-09-29T17:00:00.050Z",
+ "badgeId": 10,
+ "userId": 21,
+ "id": 52,
+ "reasonId": 68
+}, {
+ "date": "2022-10-02T20:00:01.057Z",
+ "badgeId": 10,
+ "userId": 34,
+ "id": 56,
+ "reasonId": 80
+}, {
+ "date": "2022-10-04T20:00:00.607Z",
+ "badgeId": 10,
+ "userId": 45,
+ "id": 62,
+ "reasonId": 95
+}, {
+ "date": "2022-10-06T12:00:00.697Z",
+ "badgeId": 10,
+ "userId": 38,
+ "id": 68,
+ "reasonId": 102
+}, {
+ "date": "2022-10-06T13:00:00.043Z",
+ "badgeId": 10,
+ "userId": 24,
+ "id": 70,
+ "reasonId": 101
+}, {
+ "date": "2022-10-07T11:00:01.877Z",
+ "badgeId": 10,
+ "userId": 32,
+ "id": 77,
+ "reasonId": 100
+}, {
+ "date": "2022-10-07T11:00:01.877Z",
+ "badgeId": 10,
+ "userId": 37,
+ "id": 78,
+ "reasonId": 107
+}, {
+ "date": "2022-10-13T14:00:00.073Z",
+ "badgeId": 10,
+ "userId": 18,
+ "id": 89,
+ "reasonId": 124
+}, {
+ "date": "2022-10-17T12:00:02.323Z",
+ "badgeId": 10,
+ "userId": 15,
+ "id": 97,
+ "reasonId": 144
+}, {
+ "date": "2022-10-26T20:00:00.040Z",
+ "badgeId": 10,
+ "userId": 22,
+ "id": 110,
+ "reasonId": 150
+}, {
+ "date": "2022-10-27T15:00:03.337Z",
+ "badgeId": 10,
+ "userId": 55,
+ "id": 113,
+ "reasonId": 187
+}, {
+ "date": "2022-11-03T16:00:04.023Z",
+ "badgeId": 10,
+ "userId": 20,
+ "id": 121,
+ "reasonId": 209
+}, {
+ "date": "2022-11-18T12:00:00.933Z",
+ "badgeId": 10,
+ "userId": 19,
+ "id": 137,
+ "reasonId": 247
+}, {
+ "date": "2022-11-28T18:00:00.057Z",
+ "badgeId": 10,
+ "userId": 36,
+ "id": 142,
+ "reasonId": 259
+}, {
+ "date": "2022-10-03T19:00:03.050Z",
+ "badgeId": 14,
+ "userId": 2,
+ "id": 59,
+ "reasonId": 87
+}, {
+ "date": "2022-10-11T15:00:00.640Z",
+ "badgeId": 14,
+ "userId": 28,
+ "id": 85,
+ "reasonId": 121
+}, {
+ "date": "2022-11-03T17:00:00.040Z",
+ "badgeId": 14,
+ "userId": 15,
+ "id": 122,
+ "reasonId": 176
+}, {
+ "date": "2022-11-14T11:00:00.053Z",
+ "badgeId": 14,
+ "userId": 24,
+ "id": 132,
+ "reasonId": 231
+}, {
+ "date": "2022-11-19T15:00:00.080Z",
+ "badgeId": 14,
+ "userId": 35,
+ "id": 140,
+ "reasonId": 234
+}, {
+ "date": "2022-10-08T04:00:38.177Z",
+ "badgeId": 31,
+ "userId": 2,
+ "id": 82
+}, {
+ "date": "2022-11-15T04:01:09.890Z",
+ "badgeId": 31,
+ "userId": 15,
+ "id": 134
+}, {
+ "date": "2022-10-18T13:00:03.420Z",
+ "badgeId": 45,
+ "userId": 2,
+ "id": 98,
+ "reasonId": 129
+}, {
+ "date": "2022-10-13T19:00:00.840Z",
+ "badgeId": 46,
+ "userId": 2,
+ "id": 90,
+ "reasonId": 111
+}, {
+ "date": "2022-11-12T13:00:00.040Z",
+ "badgeId": 62,
+ "userId": 26,
+ "id": 130
+}, {
+ "date": "2022-11-12T18:00:00.037Z",
+ "badgeId": 71,
+ "userId": 26,
+ "id": 131
+}, {
+ "date": "2022-10-05T01:00:02.4Z",
+ "badgeId": 87,
+ "userId": 2,
+ "id": 64
+}, {
+ "date": "2022-10-11T21:00:00.047Z",
+ "badgeId": 87,
+ "userId": 28,
+ "id": 86
+}, {
+ "date": "2022-10-26T14:00:00.047Z",
+ "badgeId": 87,
+ "userId": 15,
+ "id": 109
+}, {
+ "date": "2022-11-12T13:00:00.040Z",
+ "badgeId": 87,
+ "userId": 24,
+ "id": 128
+}, {
+ "date": "2022-11-12T13:00:00.040Z",
+ "badgeId": 87,
+ "userId": 35,
+ "id": 129
+}, {
+ "date": "2022-10-06T16:00:00.053Z",
+ "badgeId": 90,
+ "userId": 21,
+ "id": 73
+}]
