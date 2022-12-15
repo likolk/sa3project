@@ -5,16 +5,20 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
+    "build": "echo 'Bulding.... (not actually doing something, but usually I would)'",
     "dev": "DEBUG=router:* nodemon --delay 1 --ignore public/ app.js",
     "test": "mocha --exit",
     "ejsc": "node ejs-compile.js"
-  },
+  }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GianinM/USI_StackUnderflow.git"
   },
   "authors": "Leonardo, Jarod, Mattia, Kevin",
   "license": "ISC",
+  "engines": {
+    "node": "19.x"
+  },
   "bugs": {
     "url": "https://github.com/GianinM/USI_StackUnderflow/issues"
   },
