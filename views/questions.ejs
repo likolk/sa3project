@@ -1,0 +1,116 @@
+
+
+
+<div class="main-content">
+
+    <h3 class="question-title">
+        <%- question.title %>
+    </h3>
+
+    <div class="question-content">
+
+        <div class="votes">
+            <form action="/questions/up/<%-question.id%>?_method=PUT" method = "post">
+                <input type = "image" name = "submit" src="../images/upvote.png" width="30" height="30" alt="upvote button">
+            </form>
+
+            <p class="pvotes"><%-question.score%></p>
+            
+            <form action="/questions/down/<%-question.id%>?_method=PUT" method = "post">
+                <input type = "image" name = "submit" src="../images/downvote.png" width="30" height="30" alt="downvote button">
+            </form>
+        </div>
+
+        <div class="actual-question">
+            <%- question.body %>
+        </div>
+    
+        <div class="question-tags">
+            <h4 class="tags">Tags:</h4>
+            <% question.tags.split('|').forEach((t)=> {%>
+                <%if (t != ''){%>
+                    <div class="tt">
+                        <p><a href="/"><%- t %></a></p>
+                    </div>
+                <%}%>
+            <%})%>
+        </div>
+
+        <div class="user-details">
+            <p>
+                Asked by: 
+                <%if(question.ownerUserId ==0){%>
+                    Anonymous
+                <%} else {%>
+                    <a href="/users/<%-question.ownerUserId%>"><%-users.find(e=> e.id === question.ownerUserId).displayName%></a>
+                <%}%>
+            </p>
+            <!-- add also user profile picture  -->
+            
+            <p>
+                Asked on: <%- new Date(question.creationDate).toUTCString().split('G')[0] %>
+            </p>
+            
+        </div>
+
+
+        <div class="number-of-answers">
+            <p>
+            Number of answers: <%- question.answerCount %>
+            </p>
+        </div>
+            
+    </div>
+
+
+                    <% answers.forEach((n) => {%> 
+                        <div class="question-content">
+                            <div class="votes">
+                                <form action="/questions/up/<%-n.id%>?_method=PUT" method = "post">
+                                    <input type = "image" name = "submit" src="../images/upvote.png" width="30" height="30" alt="upvote button">
+                                </form>
+    
+                                <p class="pvotes"><%-n.score%></p>
+                                
+                                <form action="/questions/down/<%-n.id%>?_method=PUT" method = "post">
+                                    <input type = "image" name = "submit" src="../images/downvote.png" width="30" height="30" alt="downvote button">
+                                </form>
+                            </div>
+
+            <div class="actual-question">
+                <%- n.body %>
+            </div>
+
+            <div></div>
+
+            <div class="user-details">
+
+                    <p>Answered by 
+                        <%if(n.ownerUserId ==0){%>
+                            Anonymous
+                        <%} else {%>
+                            <a href="/users/<%-n.ownerUserId%>"><%-users.find(e=> e.id === n.ownerUserId).displayName%></a>
+                        <%}%><!-- add also user profile picture  -->
+                    <p>Answered on: <%- new Date(n.creationDate).toUTCString().split('G')[0] %></p>
+            </div>
+        </div> 
+    <% }) %>
+
+    <!-- <div class="modify-content-buttons">
+        <a href="index.html">Edit</a>
+        <a href="index.html">Delete</a>
+    </div> -->
+
+    <div class="your-answer">
+        <div class="add-another-answer">
+            <p>Add another answer</p>
+        </div>
+
+                        <form class="answer" action="/questions/answer/<%-question.id%>" method = "post">
+                            
+                            <textarea id="answer" class="textarea" name="answer" cols="10" rows="15" placeholder="Write your answer here"></textarea>
+                            
+                            <input type="submit" class="submit-answer" value="Submit">
+                        </form>
+                    </div>
+                </div>

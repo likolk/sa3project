@@ -13,8 +13,6 @@ const passport = require('passport')
 var cors = require("cors");
 const redis = require('redis');
 
-  
-
 const PORT = process.env.PORT || 8000
 const REDIS_PORT = process.env.PORT || 6379
 // create redis client
@@ -34,10 +32,10 @@ const http = require('http').Server(app);
 const server = createServer(app);
 const io = require("socket.io")(http,
     {
-      cors: {
-        origin: "*",
-        methods: ["GET", "POST"]
-      }
+        cors: {
+            origin: "*",
+            methods: ["GET", "POST"]
+        }
     });
 
 app.use(function(req,res,next){
@@ -63,10 +61,10 @@ mongoose.connect(db, {
 app.use(logger('dev'));
 app.use(express.urlencoded({ extended: false }));    // parse application/x-www-form-urlencoded
 app.use(express.json({ limit: '4MB' }));    // parse application/json
-app.use(express.static(path.join(__dirname, 'src/public'), { index: "index.html" }));
+app.use(express.static(path.join(__dirname, '/public'), { index: "index.html" }));
 app.use(methodOverride('_method'));
 app.use(expresslayouts);
-app.set('views', './src/views');
+app.set('views', './views');
 app.set('view engine', 'ejs');
 
 app.use(
@@ -93,9 +91,13 @@ app.use(function (req, res, next) {
 });
 
 
+var ejsc = require('ejsc-views')
+ejsc.compile() // compiles all views/*.ejs files into a single /public/js/views.js file
+
+
 
 //controllers
-const routers = require("./src/routes");
+const routers = require("./routes");
 app.use(routers.home);
 app.use('/questions', routers.questions);
 app.use('/users', routers.users);

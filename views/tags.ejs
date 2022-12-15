@@ -1,0 +1,22 @@
+
+                <div>
+                    <p><a href="/tags/popular"> POPULAR </a></p>
+                </div>
+                <div >
+                    <p><a href="/tags/name"> NAME </a></p>
+                </div>
+                <div>
+                    <p><a href="/tags/"> NEW </a></p>
+                </div>
+                <div class="tags_container">            
+                <% let row = t => {  %>
+                    <div class="tags_cell" >
+                        
+                        <div class="text" > 
+                            <a href="/tags/<%-t.name%>"> <%-t.name%> </a> 
+                            posted: <%-t.count%> times
+                        </div>
+                    </div>
+                    <%} %>
+                <%- tags.map(row).join("") %>
+                </div>
